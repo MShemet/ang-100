@@ -11,6 +11,14 @@
 <main>
   <app-card
     [iconClasses]="'fas fa-info-circle'"
+    [title]="'Top of Page'"
+    [subTitle]="'Components'"
+  >
+    <p body>Scroll 400px down the page to render.</p>
+  </app-card>
+
+  <app-card
+    [iconClasses]="'fas fa-info-circle'"
     [title]="'Star Ratings'"
     [subTitle]="'Components'"
   >
@@ -43,4 +51,6 @@
     <p body>Body Content</p>
     <p footer>Footer content</p>
   </app-card>
+
+  <app-top-of-page></app-top-of-page>
 </main>
